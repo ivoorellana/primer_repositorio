@@ -1,0 +1,355 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  padding-bottom: 100px;
+  min-height: 100vh;
+  background: -webkit-gradient(linear, right top, left bottom, from(#d95b32), to(#7e231e)) fixed;
+  background: linear-gradient(to bottom left, #d95b32 0%, #7e231e 100%) fixed;
+}
+
+@font-face {
+  font-family: "Southern_aire";
+  src: url("../fonts/Southern_aire.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Magic Bean Salade";
+  src: url("../fonts/Magic_Bean_Salade.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Lemon Milk MediumItalic";
+  src: url("../fonts/LEMONMILK-MediumItalic.tf");
+}
+
+/*---------------Sección NAV-MENU-------------*/
+.navbar-brand {
+  margin: 0px 0.5em;
+}
+
+div ul li a {
+  font-family: "Montserrat";
+  margin: 0px 0.5em;
+  color: #f5f5f5;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #f0d22b;
+  font-weight: bolder;
+  font-size: 1.1em;
+}
+
+.active {
+  font-weight: bolder;
+}
+
+/*--------------TIPOGRAFIAS y H's-------------------*/
+h1 {
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 1.7em;
+  color: #f0d22b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h2 {
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  color: #25b7ce;
+  font-size: 1.2em;
+}
+
+h3 {
+  font-size: 2em;
+  text-align: center;
+}
+
+h5 {
+  color: white;
+  font-size: 1.1em;
+  text-align: left;
+}
+
+p {
+  font-size: .95em;
+  font-family: 'Bitter', serif;
+  color: white;
+}
+
+hr {
+  color: white;
+}
+
+/*---------------Sección HOME-------------*/
+.bgIndex {
+  position: absolute;
+  top: calc(100vh - 550px);
+  right: calc(50% - 231px);
+  width: 462px;
+  height: 550px;
+  background: url("../media/fondoIndex.png");
+  z-index: -9999;
+}
+
+/*---------------Sección BIOGRAFIA-------------*/
+.bgBio {
+  position: absolute;
+  top: calc(100vh - 550px);
+  right: calc(50% - 650px);
+  width: 462px;
+  height: 550px;
+  background: url("../media/fondoBio.png");
+  z-index: -9999;
+}
+
+.cajaBio {
+  position: relative;
+}
+
+.cajaBio__text {
+  position: relative;
+  z-index: 1;
+  font-size: 1em;
+  font-family: 'Bitter', serif;
+  margin-top: 1.5em;
+  margin-left: 5em;
+  width: 50em;
+  color: white;
+}
+
+/*---------------Sección DISCOGRAFIA-------------*/
+.bgDisco {
+  position: absolute;
+  top: calc(100vh - 550px);
+  left: calc(50% - 650px);
+  width: 462px;
+  height: 550px;
+  background: url("../media/fondoDisco.png");
+  z-index: -9999;
+}
+
+div p {
+  font-size: .85em;
+  font-family: 'Bitter', serif;
+}
+
+.box, .boxESV, .boxG, .boxH {
+  position: relative;
+  width: 400px;
+  height: 162px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  border-radius: 5px;
+  background: -webkit-gradient(linear, left bottom, right top, from(#ff980d), to(#00afff));
+  background: linear-gradient(to top right, #ff980d 0%, #00afff 100%);
+  margin-left: 850px;
+  margin-top: -162px;
+}
+
+.box__cover, .boxESV__coverESV, .boxG__coverG, .boxH__coverH {
+  position: absolute;
+  margin-top: 9px;
+}
+
+.box__text, .boxESV__textESV, .boxG__textG, .boxH__textH {
+  position: absolute;
+  margin-left: 217px;
+  margin-top: 5px;
+  font-family: "Southern_Aire";
+  font-size: 1.5em;
+  color: white;
+  text-shadow: 1px 2px black;
+}
+
+.box__links, .boxESV__linksESV, .boxG__linksG, .boxH__linksH {
+  position: absolute;
+  margin-left: 165px;
+  margin-top: 65px;
+}
+
+.box__MPDigital, .boxESV__MPDigitalESV, .boxG__MPDigitalG, .boxH__MPDigitalH {
+  position: absolute;
+  margin-left: 170px;
+  margin-top: 110px;
+  font-family: 'Lemon Milk';
+  font-style: italic;
+  text-align: center;
+  color: #e3e3e3;
+}
+
+.box__MPFisico, .boxESV__MPFisicoESV, .boxG__MPFisicoG, .boxH__MPFisicoH {
+  position: absolute;
+  margin-left: 290px;
+  margin-top: 110px;
+  font-family: 'Lemon Milk';
+  font-style: italic;
+  text-align: center;
+}
+
+/*-------El Ser Verdadero------*/
+.boxESV {
+  background: -webkit-gradient(linear, left bottom, right top, from(#89ab00), to(#00475d));
+  background: linear-gradient(to top right, #89ab00 0%, #00475d 100%);
+  margin-left: 425px;
+  margin-top: 50px;
+}
+
+.boxESV__textESV {
+  margin-left: 165px;
+  margin-top: 10px;
+  font-family: 'Magic Bean Salade';
+  font-size: 1.2em;
+}
+
+/*-------GLITCH------*/
+.boxG {
+  background: -webkit-gradient(linear, left bottom, right top, from(#ffff00), to(#ff00ff));
+  background: linear-gradient(to top right, #ffff00 0%, #ff00ff 100%);
+  margin-left: 850px;
+  margin-top: -162px;
+}
+
+.boxG__textG {
+  margin-left: 155px;
+  margin-top: 25px;
+  font-family: 'Electrolize', sans-serif;
+  font-size: .54em;
+}
+
+/*-------HASTA VERNOS GRITAR------*/
+.boxH {
+  background: -webkit-gradient(linear, left bottom, right top, from(#cc99ff), to(#660066));
+  background: linear-gradient(to top right, #cc99ff 0%, #660066 100%);
+  margin-left: 425px;
+  margin-top: 50px;
+}
+
+.boxH__textH {
+  margin-left: 160px;
+  margin-top: 25px;
+  font-family: 'Lemon Milk';
+  font-style: italic;
+  font-size: .56em;
+}
+
+/*---------------Sección VIDEOS-------------*/
+.bgVideo {
+  position: absolute;
+  top: calc(100vh - 550px);
+  right: calc(50% - 650px);
+  width: 462px;
+  height: 550px;
+  background: url("../media/fondoVideo.png");
+  z-index: -9999;
+}
+
+/*---------------Sección EVENTOS-------------*/
+.bgEventos {
+  position: absolute;
+  top: calc(100vh - 550px);
+  left: calc(50% - 650px);
+  width: 462px;
+  height: 550px;
+  background: url("../media/fondoEventos.png");
+  z-index: -9999;
+}
+
+form {
+  margin-top: 35px;
+  margin-left: 450px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 15px;
+  width: 30rem;
+  background-color: #f0d22b;
+}
+
+/*------------FOOTER--------------*/
+footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  word-spacing: 15px;
+  z-index: 1;
+}
+
+/*------MEDIA QUERIES-------*/
+/*---------------768px--------------*/
+@media (max-width: 768px) {
+  .navbar-dark .navbar-nav .nav-link {
+    text-align: center;
+    background-color: #00000050;
+    font-size: 1.2em;
+    padding: 5%;
+  }
+  h1 {
+    font-size: 1.4em;
+  }
+  p {
+    font-size: .75em;
+  }
+  .bgBio {
+    top: calc(100vh - 500px);
+    right: calc(50% - 350px);
+  }
+  .cajaBio {
+    width: 450px;
+  }
+  .cajaBio__text {
+    font-size: 1em;
+    margin-left: 30px;
+  }
+  .bgDisco {
+    top: calc(100vh - 500px);
+    left: calc(50% - 300px);
+  }
+  .box, .boxESV, .boxG, .boxH {
+    margin-left: 2.6em;
+    margin-top: 2em;
+  }
+  .boxESV {
+    margin-left: 2.6em;
+    margin-top: 2.2em;
+  }
+  .boxG {
+    margin-left: 2.6em;
+    margin-top: 2.2em;
+  }
+  .boxH {
+    margin-left: 2.6em;
+    margin-top: 2.2em;
+  }
+  div p {
+    width: 400px;
+  }
+  .cajaDisco__Spotify {
+    width: 263px;
+  }
+  .bgVideo {
+    top: calc(100vh - 500px);
+    right: calc(50% - 350px);
+  }
+  .bgEventos {
+    top: calc(100vh - 470px);
+    left: calc(50% - 250px);
+  }
+  form {
+    margin-top: 35px;
+    margin-left: 85px;
+    padding: 5px;
+    width: 20rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

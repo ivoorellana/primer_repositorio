@@ -301,11 +301,10 @@ footer {
     font-size: .75em;
   }
   .bgBio {
-    top: calc(100vh - 500px);
-    right: calc(50% - 350px);
+    background-image: none;
   }
   .cajaBio {
-    width: 450px;
+    width: 80%;
   }
   .cajaBio__text {
     font-size: 1em;

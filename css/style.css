@@ -308,8 +308,7 @@ footer {
     margin-left: 30px;
   }
   .bgDisco {
-    top: calc(100vh - 500px);
-    left: calc(50% - 300px);
+    background-image: none;
   }
   .box, .boxESV, .boxG, .boxH {
     margin-left: 2.6em;
@@ -334,12 +333,10 @@ footer {
     width: 263px;
   }
   .bgVideo {
-    top: calc(100vh - 500px);
-    right: calc(50% - 350px);
+    background-image: none;
   }
   .bgEventos {
-    top: calc(100vh - 470px);
-    left: calc(50% - 250px);
+    background-image: none;
   }
   form {
     margin-top: 35px;

@@ -292,10 +292,13 @@ footer {
     text-align: center;
     background-color: #00000050;
     font-size: 1.2em;
-    padding: 5%;
+    padding: 3%;
   }
   h1 {
     font-size: 1.4em;
+  }
+  .bgIndex {
+    top: 25%;
   }
   p {
     font-size: .75em;
@@ -303,16 +306,19 @@ footer {
   .bgBio {
     background-image: none;
   }
-  .cajaBio {
-    width: 450px;
-  }
   .cajaBio__text {
     font-size: 1em;
-    margin-left: 30px;
+    margin-left: 6%;
+    width: 85%;
   }
   .bgDisco {
-    top: calc(100vh - 500px);
-    left: calc(50% - 300px);
+    display: none;
+  }
+  .d-flex {
+    text-align: center;
+    font-size: 1em;
+    margin-left: 6%;
+    width: 85%;
   }
   .box, .boxESV, .boxG, .boxH {
     margin-left: 2.6em;
@@ -330,25 +336,20 @@ footer {
     margin-left: 2.6em;
     margin-top: 2.2em;
   }
-  div p {
-    width: 400px;
-  }
   .cajaDisco__Spotify {
     width: 263px;
   }
   .bgVideo {
-    top: calc(100vh - 500px);
-    right: calc(50% - 350px);
+    display: none;
   }
   .bgEventos {
-    top: calc(100vh - 470px);
-    left: calc(50% - 250px);
+    display: none;
   }
   form {
-    margin-top: 35px;
-    margin-left: 85px;
-    padding: 5px;
-    width: 20rem;
+    margin-top: 10%;
+    margin-left: 10%;
+    padding: 2%;
+    width: 80%;
   }
 }
 /*# sourceMappingURL=style.css.map */

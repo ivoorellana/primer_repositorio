@@ -124,7 +124,7 @@ hr {
   font-family: 'Bitter', serif;
   margin-top: 1.5em;
   margin-left: 5em;
-  width: 65%;
+  width: 50em;
   color: white;
 }
 
@@ -303,12 +303,16 @@ footer {
   .bgBio {
     background-image: none;
   }
+  .cajaBio {
+    width: 450px;
+  }
   .cajaBio__text {
     font-size: 1em;
     margin-left: 30px;
   }
   .bgDisco {
-    background-image: none;
+    top: calc(100vh - 500px);
+    left: calc(50% - 300px);
   }
   .box, .boxESV, .boxG, .boxH {
     margin-left: 2.6em;
@@ -333,10 +337,12 @@ footer {
     width: 263px;
   }
   .bgVideo {
-    background-image: none;
+    top: calc(100vh - 500px);
+    right: calc(50% - 350px);
   }
   .bgEventos {
-    background-image: none;
+    top: calc(100vh - 470px);
+    left: calc(50% - 250px);
   }
   form {
     margin-top: 35px;

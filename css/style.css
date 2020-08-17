@@ -321,23 +321,20 @@ footer {
     width: 85%;
   }
   .box, .boxESV, .boxG, .boxH {
-    margin-left: 2.6em;
+    margin-left: 0.4em;
     margin-top: 2em;
   }
   .boxESV {
-    margin-left: 2.6em;
+    margin-left: 0.4em;
     margin-top: 2.2em;
   }
   .boxG {
-    margin-left: 2.6em;
+    margin-left: 0.4em;
     margin-top: 2.2em;
   }
   .boxH {
-    margin-left: 2.6em;
+    margin-left: 0.4em;
     margin-top: 2.2em;
-  }
-  .cajaDisco__Spotify {
-    width: 263px;
   }
   .bgVideo {
     display: none;

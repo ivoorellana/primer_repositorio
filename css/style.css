@@ -354,8 +354,8 @@ footer {
     padding: 2%;
     width: 80%;
   }
-  footer {
-    bottom: 3%;
+  .footerIndex {
+    bottom: 5%;
   }
 }
 /*# sourceMappingURL=style.css.map */

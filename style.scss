@@ -382,6 +382,14 @@ footer {
 	.bgVideo {
 		display: none;
 	}
+
+	h5 {
+		font-size:0,3em;
+	}
+
+	.container {
+		margin-left: 1%;
+	}
 	
 	.bgEventos {
 		display: none;
@@ -391,5 +399,9 @@ footer {
 		margin-left: 10%;
 		padding: 2%;
 		width: 80%;
+	}
+
+	footer{
+		bottom: 3%;
 	}
 }

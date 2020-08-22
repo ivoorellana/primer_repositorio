@@ -51,6 +51,10 @@ div ul li a {
 	font-weight: bolder;
 }
 
+.navbar-dark .navbar-toggler {
+	margin-right: 10px;
+}
+
 /*--------------TIPOGRAFIAS y H's-------------------*/
 h1 {
 	font-family: 'Montserrat Subrayada', sans-serif;
@@ -415,8 +419,7 @@ footer {
 	}
 
 	h5 {
-		font-size: 0, 3em;
-		text-align: center;
+		font-size: 0.85em;
 	}
 
 	.container {

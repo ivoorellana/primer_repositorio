@@ -85,6 +85,12 @@ h5 {
   text-align: left;
 }
 
+h6 {
+  color: white;
+  font-size: 1em;
+  text-align: center;
+}
+
 p {
   font-size: .95em;
   font-family: 'Bitter', serif;

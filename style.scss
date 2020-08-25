@@ -11,8 +11,8 @@ body {
 }
 
 @font-face {
-	font-family: "Southern_aire";
-	src: url("../fonts/Southern_aire.ttf");
+	font-family: "Southern_Aire";
+	src: url("../fonts/Southern_Aire.ttf");
 	font-weight: 400;
 }
 
@@ -24,7 +24,7 @@ body {
 
 @font-face {
 	font-family: "Lemon Milk MediumItalic";
-	src: url("../fonts/LEMONMILK-MediumItalic.tf");
+	src: url("../fonts/LEMONMILK-MediumItalic.otf");
 }
 
 $white:white;
@@ -109,6 +109,43 @@ hr {
 	z-index: -9999;
 }
 
+.itucancion {
+	display: inline-block;
+	position: relative;
+	margin-left: 10%;
+	width: 300px;
+	text-align:center;
+}
+	.itucancion h5 {
+		font-family: "Lemon Milk MediumItalic";
+		position: absolute;
+		font-size: 0.9em;	
+		color: $yellow;	
+		margin-top: -25px;
+		padding: 1%;
+		background-color: black;
+	}
+
+.estreno {
+		display: inline-block;
+		position: relative;
+		margin-left: 35%;
+		margin-top: 12%;
+		width: 300px;
+		text-align:center;
+	}
+		.estreno h5 {
+			font-family: "Lemon Milk MediumItalic";
+			position: absolute;
+			font-size: 0.95em;
+			margin-top: 3px;
+			margin-left: 27%;
+			padding: 1%;
+			color: black;
+			background-color:$yellow;
+			
+		}
+
 /*---------------Sección BIOGRAFIA-------------*/
 .bgBio {
 	position: absolute;
@@ -174,7 +211,7 @@ div {
 		position: absolute;
 		margin-left: 217px;
 		margin-top: 5px;
-		font-family: "Southern_Aire";
+		font-family: 'Southern_Aire';
 		font-size: 1.5em;
 		color: $white;
 		text-shadow: 1px 2px black;
@@ -350,6 +387,10 @@ footer {
 
 /*---------------768px--------------*/
 @media (max-width: 768px) {
+
+	body {
+		overflow-x: hidden;
+	}
 	.navbar-dark .navbar-nav .nav-link {
 		text-align: center;
 		background-color: #00000050;
@@ -364,6 +405,22 @@ footer {
 	.bgIndex {
 		top: 23%;
 	}
+
+	.itucancion {
+		display: none;
+	}
+	
+	.imgEstreno {
+		margin-top: -30px;
+		margin-left: -35px;
+		width:100px;
+		height: auto;
+		}
+			.estreno h5 {
+				font-size: 0.85em;
+				margin-top: -65px;
+				margin-left: -70px;
+			}
 
 	p {
 		font-size: .75em;
